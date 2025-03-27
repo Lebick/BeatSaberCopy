@@ -643,7 +643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progress: 0
-  moveTime: 2
+  destroyEffect: {fileID: 6435529490858234412, guid: c5cb3c03be32e034faaa68764d1365b2, type: 3}
 --- !u!1 &2831746170472490785
 GameObject:
   m_ObjectHideFlags: 0

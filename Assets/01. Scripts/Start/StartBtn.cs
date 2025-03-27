@@ -15,6 +15,8 @@ public class StartBtn : MonoBehaviour
     public CanvasGroup canvasGroup;
     public Transform box;
 
+    public CreateNoteInfo test;
+
     public void OnClickSelectBtn()
     {
         if (!isStart)
@@ -72,5 +74,7 @@ public class StartBtn : MonoBehaviour
 
             yield return null;
         }
+
+        test.SetSong();
     }
 }
