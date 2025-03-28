@@ -27,7 +27,7 @@ public class GuardNote : Note
             }
             else if (other.GetComponent<PlayerAttack>().btnReleaseTime <= 0.2f)
             {
-                Instantiate(destroyEffect, transform.position, Quaternion.identity);
+                //Instantiate(destroyEffect, transform.position, Quaternion.identity);
                 print("막았다!!!!!!!!!!!!!!");
                 Destroy(gameObject);
 
@@ -42,7 +42,7 @@ public class GuardNote : Note
 
         if (other.GetComponent<PlayerAttack>().btnReleaseTime != 0)
         {
-            Instantiate(destroyEffect, transform.position, Quaternion.identity);
+            //Instantiate(destroyEffect, transform.position, Quaternion.identity);
             print("막았다!!!!!!!!!!!!!!");
             Destroy(gameObject);
 

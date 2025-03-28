@@ -7,13 +7,27 @@ public class Note : MonoBehaviour
 {
     public float progress = 0f;
 
-    public GameObject destroyEffect;
+    public Vector3 startPos, endPos;
 
-    protected Vector3 startPos, endPos;
+    public bool isLeft;
+
+    public NoteSpawn noteSpawn;
+
+    public void initialize()
+    {
+        progress = 0f;
+        startPos = transform.position;
+        startPos.z = 17;
+        endPos = GamePlayManager.instance.correctPos.position;
+
+        endPos.x = startPos.x;
+        endPos.y = startPos.y;
+    }
 
     protected virtual void Start()
     {
         startPos = transform.position;
+        startPos.z = 17;
         endPos = GamePlayManager.instance.correctPos.position;
 
         endPos.x = startPos.x;
@@ -25,22 +39,40 @@ public class Note : MonoBehaviour
         progress += Time.deltaTime;
         transform.position = startPos + (endPos - startPos) * progress;
 
-        if(progress > 1.2f)
+        if (progress > 1.2f)
         {
-            Destroy(gameObject);
+            // Enqueue로 오브젝트 풀에 추가
+            if (isLeft)
+            {
+                noteSpawn.leftPullingNote.Enqueue(gameObject); // 기존 Add()를 Enqueue()로 변경
+            }
+            else
+            {
+                noteSpawn.rightPullingNote.Enqueue(gameObject); // 기존 Add()를 Enqueue()로 변경
+            }
+            gameObject.SetActive(false);
             GamePlayManager.instance.combo = 0;
         }
     }
 
-
     protected virtual void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("PlayerAttack") && Mathf.Abs(1 - progress) <= 0.2f)
+        if (other.TryGetComponent(out PlayerAttack player) && player.isLeft == isLeft && player.distance >= 0.1f && Mathf.Abs(1 - progress) <= 0.2f)
         {
-            Instantiate(destroyEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-
             GamePlayManager.instance.combo++;
+
+            // Enqueue로 오브젝트 풀에 추가
+            if (isLeft)
+            {
+                noteSpawn.leftPullingNote.Enqueue(gameObject); // 기존 Add()를 Enqueue()로 변경
+                noteSpawn.GetLeftEffect(transform.position);
+            }
+            else
+            {
+                noteSpawn.rightPullingNote.Enqueue(gameObject); // 기존 Add()를 Enqueue()로 변경
+                noteSpawn.GetRightEffect(transform.position);
+            }
+            gameObject.SetActive(false);
         }
     }
 }

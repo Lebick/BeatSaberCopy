@@ -16,6 +16,7 @@ public class StartBtn : MonoBehaviour
     public Transform box;
 
     public CreateNoteInfo test;
+    public NoteSpawn test2;
 
     public void OnClickSelectBtn()
     {
@@ -75,6 +76,7 @@ public class StartBtn : MonoBehaviour
             yield return null;
         }
 
-        test.SetSong();
+        //test.SetSong();
+        test2.SetSong(); 
     }
 }

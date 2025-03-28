@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1996663115382606515}
   - component: {fileID: 8454645208846492977}
   - component: {fileID: 6941873304841512598}
-  - component: {fileID: 3925260863090331439}
+  - component: {fileID: -248821510232360772}
   m_Layer: 0
-  m_Name: NoteDestroyEffect
+  m_Name: NoteDestroyEffect 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4839,7 +4839,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5a17832a8871cc146b769502ed0cad48, type: 2}
+  - {fileID: 2100000, guid: bc0a505d04b010645b6150568f1d4714, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4892,7 +4892,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &3925260863090331439
+--- !u!114 &-248821510232360772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

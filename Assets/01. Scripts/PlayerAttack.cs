@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
+using System.Linq;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -7,6 +9,19 @@ public class PlayerAttack : MonoBehaviour
 
     private bool isInputRightBtn;
     public float btnReleaseTime;
+
+    public bool isLeft;
+
+    public Transform speedDetect;
+
+    public Vector3 lastPos;
+
+    public float distance;
+
+    private void Start()
+    {
+        lastPos = speedDetect.position;
+    }
 
     private void Update()
     {
@@ -17,6 +32,13 @@ public class PlayerAttack : MonoBehaviour
             btnReleaseTime += Time.deltaTime;
         else
             btnReleaseTime = 0;
+    }
+
+    private void FixedUpdate()
+    {
+        distance = Vector3.Distance(lastPos, speedDetect.position);
+
+        lastPos = speedDetect.position;
     }
 
     private void CheckBtnTrigger(InputAction.CallbackContext obj)

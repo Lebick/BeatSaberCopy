@@ -22,9 +22,20 @@ public class DontHitNote : Note
     {
         if (other.CompareTag("PlayerAttack") && Mathf.Abs(1 - progress) <= 0.2f)
         {
-            Instantiate(destroyEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            if (isLeft)
+            {
+                //noteSpawn.leftPullingNote.Add(gameObject);
+                noteSpawn.GetLeftEffect(transform.position);
+            }
+            else
+            {
+                //noteSpawn.rightPullingNote.Add(gameObject);
+                noteSpawn.GetRightEffect(transform.position);
+            }
+            //gameObject.SetActive(false);
 
+            //юс╫ц
+            Destroy(gameObject);
             GamePlayManager.instance.combo = 0;
         }
     }

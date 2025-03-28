@@ -76,6 +76,11 @@ public class CreateNoteInfo : MonoBehaviour
 
     #endregion
 
+    private void Start()
+    {
+        SetSong();
+    }
+
     public void SetSong()
     {
         StartCoroutine(StartSong());
@@ -84,6 +89,8 @@ public class CreateNoteInfo : MonoBehaviour
 
     private IEnumerator StartSong()
     {
+        yield return new WaitForSeconds(5); 
+
         float progress = 0f;
 
         while(progress <= info.offset)

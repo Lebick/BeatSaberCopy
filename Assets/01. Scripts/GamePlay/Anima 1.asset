@@ -1,0 +1,1562 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a041315460ead4ca5337409cee93ef, type: 3}
+  m_Name: Anima 1
+  m_EditorClassIdentifier: 
+  song: {fileID: 8300000, guid: 1432e43d61bf41844bd25b2e5ba74159, type: 3}
+  bpm: 183.5
+  offset: 0
+  noteInfos:
+  - spawnPos: {x: 0.12655067, y: 2.2070167, z: 1.25}
+    time: 6.0001826
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35115242, y: 2.2598777, z: 1.25}
+    time: 7.305871
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.07136758, y: 2.3028116, z: 1.25}
+    time: 8.333671
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.19142309, y: 2.597524, z: 1.25}
+    time: 9.277969
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48396456, y: 2.5570786, z: 1.25}
+    time: 10.333471
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.22268406, y: 2.2280693, z: 1.25}
+    time: 10.666731
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.48964193, y: 2.7575006, z: 1.25}
+    time: 10.999669
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.47165632, y: 2.4725096, z: 1.25}
+    time: 12.083332
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.20961821, y: 2.2025852, z: 1.25}
+    time: 13.291465
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.21184365, y: 2.4623246, z: 1.25}
+    time: 13.819504
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.040400714, y: 2.667552, z: 1.25}
+    time: 14.402529
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.32352036, y: 2.0958772, z: 1.25}
+    time: 14.957774
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.16736008, y: 2.0667493, z: 1.25}
+    time: 15.527383
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4912085, y: 2.4025242, z: 1.25}
+    time: 16.554853
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.4867226, y: 2.646764, z: 1.25}
+    time: 17.582483
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5050533, y: 2.3093019, z: 1.25}
+    time: 18.13845
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.3185793, y: 2.3343513, z: 1.25}
+    time: 18.763039
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.40136433, y: 2.5445297, z: 1.25}
+    time: 19.38799
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.06593639, y: 2.3282287, z: 1.25}
+    time: 21.527172
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5320536, y: 2.4418101, z: 1.25}
+    time: 23.290596
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.28283444, y: 2.5321207, z: 1.25}
+    time: 24.402102
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.016708404, y: 2.5750623, z: 1.25}
+    time: 26.151173
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.27653292, y: 2.3039868, z: 1.25}
+    time: 26.567896
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.09869486, y: 2.0793846, z: 1.25}
+    time: 26.928938
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3580159, y: 2.666777, z: 1.25}
+    time: 27.387548
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.51843625, y: 2.2935545, z: 1.25}
+    time: 28.748404
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.3808883, y: 2.3473563, z: 1.25}
+    time: 29.276068
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5712854, y: 2.6148946, z: 1.25}
+    time: 29.859432
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.026506439, y: 2.590528, z: 1.25}
+    time: 31.400871
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.278317, y: 2.3893468, z: 1.25}
+    time: 31.859255
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.008569643, y: 2.2548106, z: 1.25}
+    time: 32.359085
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.49559966, y: 2.6834624, z: 1.25}
+    time: 33.636597
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.658679, y: 2.398759, z: 1.25}
+    time: 34.650482
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.31762397, y: 2.3248599, z: 1.25}
+    time: 35.41434
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.14656912, y: 2.6381478, z: 1.25}
+    time: 36.094635
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.34195417, y: 2.4634705, z: 1.25}
+    time: 37.60847
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.17110673, y: 2.141835, z: 1.25}
+    time: 38.691414
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.031129718, y: 2.4762168, z: 1.25}
+    time: 40.17753
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.36822397, y: 2.5675268, z: 1.25}
+    time: 40.872314
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.141179, y: 2.5703473, z: 1.25}
+    time: 41.455887
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35048366, y: 2.5072672, z: 1.25}
+    time: 41.7918
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.0741097, y: 2.5245502, z: 1.25}
+    time: 41.899105
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3201479, y: 2.4996867, z: 1.25}
+    time: 42.05245
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.09158103, y: 2.5148864, z: 1.25}
+    time: 42.12161
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.33870518, y: 2.5002844, z: 1.25}
+    time: 42.274315
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.08731939, y: 2.5281754, z: 1.25}
+    time: 42.371925
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.37570542, y: 2.5064876, z: 1.25}
+    time: 42.635727
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.10317446, y: 2.1688962, z: 1.25}
+    time: 42.80229
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3348958, y: 2.4914117, z: 1.25}
+    time: 43.13586
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.37024704, y: 2.5780923, z: 1.25}
+    time: 43.427605
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.42398924, y: 2.3637602, z: 1.25}
+    time: 43.83027
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.2593286, y: 2.2375412, z: 1.25}
+    time: 44.21876
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.40109032, y: 2.4270556, z: 1.25}
+    time: 44.524666
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.024878934, y: 2.4500442, z: 1.25}
+    time: 44.691
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35010564, y: 2.4220893, z: 1.25}
+    time: 45.05215
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0146202, y: 2.4996557, z: 1.25}
+    time: 45.218983
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.32859513, y: 2.4129868, z: 1.25}
+    time: 45.55259
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.089209825, y: 2.6094499, z: 1.25}
+    time: 45.72072
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3656147, y: 2.4512553, z: 1.25}
+    time: 46.09403
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.17499016, y: 2.2763233, z: 1.25}
+    time: 46.288395
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.39492396, y: 2.493929, z: 1.25}
+    time: 46.732723
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.14471006, y: 2.3445878, z: 1.25}
+    time: 47.16327
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.38558513, y: 2.46993, z: 1.25}
+    time: 47.59371
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.053840697, y: 2.400062, z: 1.25}
+    time: 48.06593
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35429943, y: 2.4730837, z: 1.25}
+    time: 48.260418
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.14632171, y: 2.491838, z: 1.25}
+    time: 48.718746
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35411254, y: 2.4663126, z: 1.25}
+    time: 48.89915
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.17383611, y: 2.5256233, z: 1.25}
+    time: 49.274143
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.22171968, y: 2.5144105, z: 1.25}
+    time: 49.497086
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.34673533, y: 2.445958, z: 1.25}
+    time: 49.704853
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.26400393, y: 2.6138875, z: 1.25}
+    time: 49.88548
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3555941, y: 2.4505894, z: 1.25}
+    time: 50.065845
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.121868655, y: 2.5199058, z: 1.25}
+    time: 50.27417
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.021159023, y: 2.3838098, z: 1.25}
+    time: 50.760136
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.44950646, y: 2.4977283, z: 1.25}
+    time: 50.885586
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.28720355, y: 2.23654, z: 1.25}
+    time: 51.32961
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5184688, y: 2.59205, z: 1.25}
+    time: 51.64886
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.10117966, y: 2.1255841, z: 1.25}
+    time: 52.05164
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5161724, y: 2.55126, z: 1.25}
+    time: 52.468647
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.21287113, y: 2.4861267, z: 1.25}
+    time: 52.648933
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4527907, y: 2.4638178, z: 1.25}
+    time: 53.037918
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.2072617, y: 2.6095767, z: 1.25}
+    time: 53.176636
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.44189352, y: 2.3713884, z: 1.25}
+    time: 53.621056
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.17033276, y: 2.648549, z: 1.25}
+    time: 53.718475
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.29646367, y: 2.3301399, z: 1.25}
+    time: 54.135117
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.16408134, y: 2.6836429, z: 1.25}
+    time: 54.135117
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.50345445, y: 2.361047, z: 1.25}
+    time: 54.4545
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.11003032, y: 2.5381055, z: 1.25}
+    time: 54.4545
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.123944, y: 2.2371233, z: 1.25}
+    time: 54.74615
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.49152586, y: 2.4509015, z: 1.25}
+    time: 54.98196
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.044162825, y: 2.364603, z: 1.25}
+    time: 55.16256
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.47930875, y: 2.4622712, z: 1.25}
+    time: 55.30148
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.030885309, y: 2.3980384, z: 1.25}
+    time: 55.42642
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.031837344, y: 2.417479, z: 1.25}
+    time: 55.607296
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.004925981, y: 2.398076, z: 1.25}
+    time: 55.71965
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48196027, y: 2.4515095, z: 1.25}
+    time: 55.85755
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.09885082, y: 2.415469, z: 1.25}
+    time: 56.06534
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3878321, y: 2.4120333, z: 1.25}
+    time: 56.301613
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.12251201, y: 2.551287, z: 1.25}
+    time: 56.454144
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.34951782, y: 2.4118054, z: 1.25}
+    time: 56.60689
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.12550732, y: 2.546602, z: 1.25}
+    time: 56.745907
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.40179095, y: 2.4063559, z: 1.25}
+    time: 57.342842
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.10239527, y: 2.5086439, z: 1.25}
+    time: 57.376507
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.097721905, y: 2.490243, z: 1.25}
+    time: 57.676205
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4128097, y: 2.3949351, z: 1.25}
+    time: 57.884815
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.06921175, y: 2.4906788, z: 1.25}
+    time: 58.009808
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3907165, y: 2.410595, z: 1.25}
+    time: 58.273426
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0982945, y: 2.47261, z: 1.25}
+    time: 58.634476
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43780726, y: 2.4001975, z: 1.25}
+    time: 58.65374
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.45447394, y: 2.3947694, z: 1.25}
+    time: 58.925964
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.09253083, y: 2.4980392, z: 1.25}
+    time: 58.94547
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.10593201, y: 2.4586754, z: 1.25}
+    time: 59.25932
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.422883, y: 2.4259496, z: 1.25}
+    time: 59.398483
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.06522794, y: 2.4513493, z: 1.25}
+    time: 59.537403
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.359969, y: 2.4300056, z: 1.25}
+    time: 59.675964
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.070398, y: 2.4605067, z: 1.25}
+    time: 60.009064
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.426763, y: 2.3726175, z: 1.25}
+    time: 60.028355
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.14669876, y: 2.6554935, z: 1.25}
+    time: 60.28717
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.27105778, y: 2.3578322, z: 1.25}
+    time: 60.35653
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.6495634, y: 2.3620188, z: 1.25}
+    time: 60.634174
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.29369086, y: 2.3811011, z: 1.25}
+    time: 60.653465
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.46093246, y: 2.4307911, z: 1.25}
+    time: 60.925545
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6188492, y: 2.4691389, z: 1.25}
+    time: 61.217415
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.09533881, y: 2.6271083, z: 1.25}
+    time: 61.523483
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43076503, y: 2.4295187, z: 1.25}
+    time: 61.556316
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.34139472, y: 2.2738774, z: 1.25}
+    time: 61.89797
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.61027825, y: 2.312863, z: 1.25}
+    time: 61.931946
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.024345562, y: 2.231728, z: 1.25}
+    time: 62.231213
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4635318, y: 2.3610122, z: 1.25}
+    time: 62.250553
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.42708617, y: 2.3728235, z: 1.25}
+    time: 62.564598
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.01217711, y: 2.085961, z: 1.25}
+    time: 62.620113
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6607949, y: 2.3447607, z: 1.25}
+    time: 63.203693
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.4045891, y: 2.263753, z: 1.25}
+    time: 63.203693
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5592439, y: 2.3382714, z: 1.25}
+    time: 63.509407
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.1639142, y: 2.5857134, z: 1.25}
+    time: 63.52956
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35218614, y: 2.2835157, z: 1.25}
+    time: 63.843254
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.1842646, y: 2.6687708, z: 1.25}
+    time: 63.843254
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.07331346, y: 2.2309299, z: 1.25}
+    time: 64.21818
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.64573705, y: 2.377563, z: 1.25}
+    time: 64.31491
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.22729033, y: 2.1647153, z: 1.25}
+    time: 64.55124
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6577798, y: 2.3805172, z: 1.25}
+    time: 64.63429
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.16222654, y: 2.3203957, z: 1.25}
+    time: 64.78708
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6070854, y: 2.3585832, z: 1.25}
+    time: 64.91205
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.19639201, y: 2.4026463, z: 1.25}
+    time: 65.06486
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5262572, y: 2.322809, z: 1.25}
+    time: 65.32877
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.122033715, y: 2.592133, z: 1.25}
+    time: 65.5092
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4221355, y: 2.3043463, z: 1.25}
+    time: 65.6343
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0803899, y: 2.5950572, z: 1.25}
+    time: 65.74586
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4303015, y: 2.3354151, z: 1.25}
+    time: 65.856606
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0016890466, y: 2.5567648, z: 1.25}
+    time: 65.95367
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.44431236, y: 2.3512287, z: 1.25}
+    time: 66.050964
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.05589561, y: 2.417089, z: 1.25}
+    time: 66.13426
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5290566, y: 2.4192853, z: 1.25}
+    time: 66.23147
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.08428863, y: 2.3335912, z: 1.25}
+    time: 66.25114
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.06835914, y: 2.1459398, z: 1.25}
+    time: 66.481384
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.53193617, y: 2.4930036, z: 1.25}
+    time: 66.66185
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.21227731, y: 2.38025, z: 1.25}
+    time: 66.98158
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48383966, y: 2.3866367, z: 1.25}
+    time: 67.1341
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.34164935, y: 2.5594888, z: 1.25}
+    time: 67.39799
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.49527302, y: 2.5454702, z: 1.25}
+    time: 67.84281
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3898247, y: 2.2533126, z: 1.25}
+    time: 68.16198
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.21285035, y: 2.4807003, z: 1.25}
+    time: 68.300804
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43940932, y: 2.3063548, z: 1.25}
+    time: 68.43999
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.020794481, y: 2.3405397, z: 1.25}
+    time: 68.55228
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.10416471, y: 2.1893382, z: 1.25}
+    time: 68.884575
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.50137776, y: 2.358367, z: 1.25}
+    time: 69.02322
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.21564941, y: 2.1626902, z: 1.25}
+    time: 69.18969
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.21989842, y: 2.1522381, z: 1.25}
+    time: 69.48134
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4934271, y: 2.3297334, z: 1.25}
+    time: 69.63395
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.23421662, y: 2.134982, z: 1.25}
+    time: 69.745125
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.51565313, y: 2.269207, z: 1.25}
+    time: 70.06452
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.20931527, y: 2.3879998, z: 1.25}
+    time: 70.39791
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.46994382, y: 2.2580488, z: 1.25}
+    time: 70.59243
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.2864015, y: 2.5943418, z: 1.25}
+    time: 70.71864
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.27824214, y: 2.6185179, z: 1.25}
+    time: 70.87158
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.2336627, y: 2.6122837, z: 1.25}
+    time: 71.008804
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.49098778, y: 2.2859755, z: 1.25}
+    time: 71.105965
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.070804894, y: 2.4759355, z: 1.25}
+    time: 71.30051
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48743403, y: 2.3671944, z: 1.25}
+    time: 71.39775
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.029787391, y: 2.4507692, z: 1.25}
+    time: 71.63392
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4494829, y: 2.3940601, z: 1.25}
+    time: 71.717316
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5419894, y: 2.3461664, z: 1.25}
+    time: 71.93942
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5175828, y: 2.3535676, z: 1.25}
+    time: 72.09197
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.12559521, y: 2.4104605, z: 1.25}
+    time: 72.28647
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.44329885, y: 2.3761277, z: 1.25}
+    time: 72.73124
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.3197061, y: 2.4402912, z: 1.25}
+    time: 73.05043
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.33534622, y: 2.1094906, z: 1.25}
+    time: 73.661545
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.52253467, y: 2.4136386, z: 1.25}
+    time: 73.68112
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.21460834, y: 2.5237474, z: 1.25}
+    time: 74.272644
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.39056548, y: 2.3300052, z: 1.25}
+    time: 74.29248
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.022374079, y: 2.6913886, z: 1.25}
+    time: 74.92522
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.31355143, y: 2.2080774, z: 1.25}
+    time: 74.95919
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.35430253, y: 2.317554, z: 1.25}
+    time: 75.53613
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5656743, y: 2.3257854, z: 1.25}
+    time: 75.55628
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.36902404, y: 2.2582781, z: 1.25}
+    time: 76.28623
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.20229036, y: 2.7444634, z: 1.25}
+    time: 76.30626
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6596933, y: 2.3907754, z: 1.25}
+    time: 76.96658
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.43263903, y: 2.4411912, z: 1.25}
+    time: 76.987015
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.24795073, y: 2.578493, z: 1.25}
+    time: 77.258194
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4809979, y: 2.326397, z: 1.25}
+    time: 77.27887
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.22739616, y: 2.052538, z: 1.25}
+    time: 77.57779
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.61618125, y: 2.312404, z: 1.25}
+    time: 77.59784
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.22575857, y: 2.1097822, z: 1.25}
+    time: 77.86921
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4358819, y: 2.4447005, z: 1.25}
+    time: 77.88988
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.35527435, y: 2.1511817, z: 1.25}
+    time: 78.23055
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.019802108, y: 2.5628657, z: 1.25}
+    time: 78.23055
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.4385587, y: 2.2790296, z: 1.25}
+    time: 78.91103
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.7759942, y: 2.3305855, z: 1.25}
+    time: 78.93131
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.27494234, y: 2.2160785, z: 1.25}
+    time: 79.53626
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.020888746, y: 2.7592466, z: 1.25}
+    time: 79.55649
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6855517, y: 2.271695, z: 1.25}
+    time: 79.85561
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.32458973, y: 2.3377168, z: 1.25}
+    time: 79.85561
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.2554355, y: 2.1647463, z: 1.25}
+    time: 80.17472
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4087103, y: 2.4932773, z: 1.25}
+    time: 80.19547
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.7645591, y: 2.2582307, z: 1.25}
+    time: 80.50791
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.5257294, y: 2.4125154, z: 1.25}
+    time: 80.52847
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.299174, y: 2.2518294, z: 1.25}
+    time: 80.84125
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.030712977, y: 2.7289193, z: 1.25}
+    time: 80.84125
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.84020257, y: 2.363788, z: 1.25}
+    time: 81.46622
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.39784396, y: 2.2010949, z: 1.25}
+    time: 81.48665
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.07747196, y: 2.156139, z: 1.25}
+    time: 82.11893
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.45471483, y: 2.214908, z: 1.25}
+    time: 82.13949
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.23912099, y: 2.463458, z: 1.25}
+    time: 82.45231
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.75376815, y: 2.3978083, z: 1.25}
+    time: 82.49627
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.19557601, y: 1.8720604, z: 1.25}
+    time: 82.78566
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.647719, y: 2.066492, z: 1.25}
+    time: 82.80586
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5650279, y: 2.47711, z: 1.25}
+    time: 83.09124
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.11667888, y: 2.417077, z: 1.25}
+    time: 83.09124
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.17597103, y: 2.2143083, z: 1.25}
+    time: 83.41089
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43205434, y: 2.356224, z: 1.25}
+    time: 83.68838
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.09860887, y: 2.391133, z: 1.25}
+    time: 83.855484
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.42652243, y: 2.2968028, z: 1.25}
+    time: 83.98002
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0058867186, y: 2.2778869, z: 1.25}
+    time: 84.11904
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.39332047, y: 2.2133555, z: 1.25}
+    time: 84.31348
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.08433902, y: 2.409439, z: 1.25}
+    time: 84.43837
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5539184, y: 2.331471, z: 1.25}
+    time: 84.771904
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.021739915, y: 2.208368, z: 1.25}
+    time: 84.79347
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.06665221, y: 2.1839216, z: 1.25}
+    time: 85.119194
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4315232, y: 2.4620407, z: 1.25}
+    time: 85.15284
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.5396795, y: 2.2381837, z: 1.25}
+    time: 85.424545
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.059338436, y: 2.4477384, z: 1.25}
+    time: 85.44548
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5357826, y: 2.322393, z: 1.25}
+    time: 85.74406
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.0504757, y: 2.2059088, z: 1.25}
+    time: 85.74406
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.08789635, y: 2.1406946, z: 1.25}
+    time: 86.063484
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.24935944, y: 1.9974092, z: 1.25}
+    time: 86.23011
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.37477663, y: 2.016233, z: 1.25}
+    time: 86.508095
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.04523717, y: 2.129995, z: 1.25}
+    time: 86.70206
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4112838, y: 2.1333504, z: 1.25}
+    time: 87.02154
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.12985794, y: 2.4429886, z: 1.25}
+    time: 87.32704
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.34622282, y: 2.6103463, z: 1.25}
+    time: 87.67425
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.26864845, y: 1.9984105, z: 1.25}
+    time: 88.0353
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6203673, y: 2.48599, z: 1.25}
+    time: 88.28544
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.06945418, y: 1.9617941, z: 1.25}
+    time: 88.68868
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.27927986, y: 2.3935895, z: 1.25}
+    time: 88.96599
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.2615022, y: 2.0664413, z: 1.25}
+    time: 89.313156
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.603402, y: 2.165138, z: 1.25}
+    time: 89.6606
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.35360822, y: 1.9730327, z: 1.25}
+    time: 89.97943
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.28255367, y: 2.264587, z: 1.25}
+    time: 90.31292
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.164859, y: 2.255111, z: 1.25}
+    time: 90.64644
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.42747563, y: 2.3266156, z: 1.25}
+    time: 90.89631
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.21389224, y: 2.512347, z: 1.25}
+    time: 91.24348
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4579139, y: 2.4576347, z: 1.25}
+    time: 91.49389
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.1254433, y: 2.4209616, z: 1.25}
+    time: 91.646454
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.338809, y: 2.4370272, z: 1.25}
+    time: 91.71575
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.039801925, y: 2.1712766, z: 1.25}
+    time: 91.882195
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.41272637, y: 2.4309728, z: 1.25}
+    time: 91.96695
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.09520484, y: 2.1526766, z: 1.25}
+    time: 92.104645
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.41554812, y: 2.4224682, z: 1.25}
+    time: 92.22947
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.23852582, y: 2.1537106, z: 1.25}
+    time: 92.28497
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.38854566, y: 2.4408984, z: 1.25}
+    time: 92.47943
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.37873882, y: 2.3135312, z: 1.25}
+    time: 92.68778
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.3167798, y: 2.3595402, z: 1.25}
+    time: 92.78493
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35032022, y: 2.3480268, z: 1.25}
+    time: 93.06271
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.11182743, y: 2.4023657, z: 1.25}
+    time: 93.396034
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4841603, y: 2.387293, z: 1.25}
+    time: 93.68767
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.26434523, y: 2.3947592, z: 1.25}
+    time: 94.02083
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.44870758, y: 2.4432259, z: 1.25}
+    time: 94.28494
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.18855506, y: 2.345536, z: 1.25}
+    time: 94.43755
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.42148304, y: 2.402502, z: 1.25}
+    time: 94.53505
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.14137763, y: 2.392304, z: 1.25}
+    time: 94.70172
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.42443958, y: 2.4004493, z: 1.25}
+    time: 94.82667
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.110779405, y: 2.3063316, z: 1.25}
+    time: 95.20165
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.45262247, y: 2.430111, z: 1.25}
+    time: 95.493576
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.05824399, y: 2.5406704, z: 1.25}
+    time: 95.84071
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43667528, y: 2.4136715, z: 1.25}
+    time: 96.15984
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.060001045, y: 2.5430815, z: 1.25}
+    time: 96.42349
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.39737013, y: 2.4149084, z: 1.25}
+    time: 96.52092
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.086613625, y: 2.5366786, z: 1.25}
+    time: 96.673546
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.37833506, y: 2.3944983, z: 1.25}
+    time: 96.74328
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.102049775, y: 2.521809, z: 1.25}
+    time: 96.85407
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3659935, y: 2.3968337, z: 1.25}
+    time: 96.97913
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.08989655, y: 2.546164, z: 1.25}
+    time: 97.04993
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4301093, y: 2.3353949, z: 1.25}
+    time: 97.20277
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.15321855, y: 2.3413942, z: 1.25}
+    time: 97.90948
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.38984627, y: 2.5387964, z: 1.25}
+    time: 97.97885
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.052109674, y: 2.3704455, z: 1.25}
+    time: 98.15949
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.40387136, y: 2.482277, z: 1.25}
+    time: 98.19351
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.051559523, y: 2.4066386, z: 1.25}
+    time: 98.35387
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.40507483, y: 2.4574249, z: 1.25}
+    time: 98.43728
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.05970061, y: 2.4914892, z: 1.25}
+    time: 99.11804
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.36632514, y: 2.4588172, z: 1.25}
+    time: 99.20129
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.005728632, y: 2.4858165, z: 1.25}
+    time: 99.39584
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35672015, y: 2.4085183, z: 1.25}
+    time: 99.45134
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.037183613, y: 2.5003996, z: 1.25}
+    time: 99.562355
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.35028812, y: 2.3961303, z: 1.25}
+    time: 99.64558
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.28127623, y: 2.1175723, z: 1.25}
+    time: 99.909485
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.39044276, y: 2.5357676, z: 1.25}
+    time: 100.17318
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.38255244, y: 2.2328763, z: 1.25}
+    time: 100.4512
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3627914, y: 2.516995, z: 1.25}
+    time: 100.75688
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.18949759, y: 2.3253374, z: 1.25}
+    time: 101.10371
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4363228, y: 2.4157424, z: 1.25}
+    time: 101.395546
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.2547234, y: 2.5635877, z: 1.25}
+    time: 101.77056
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48028255, y: 2.5289838, z: 1.25}
+    time: 102.07631
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.14607835, y: 2.3334908, z: 1.25}
+    time: 102.27065
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.51137143, y: 2.7089832, z: 1.25}
+    time: 102.42326
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.19792977, y: 2.2977912, z: 1.25}
+    time: 102.71509
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5275448, y: 2.565157, z: 1.25}
+    time: 102.99261
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.54360604, y: 2.2751749, z: 1.25}
+    time: 103.39541
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.30913216, y: 2.5142174, z: 1.25}
+    time: 103.41698
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48380297, y: 2.383339, z: 1.25}
+    time: 103.74251
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.13934427, y: 2.144466, z: 1.25}
+    time: 104.020195
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43213364, y: 2.3592331, z: 1.25}
+    time: 104.3678
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.31347004, y: 2.2078228, z: 1.25}
+    time: 104.728775
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.54541737, y: 2.4445438, z: 1.25}
+    time: 104.839516
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.07694836, y: 2.3324394, z: 1.25}
+    time: 105.047806
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48889446, y: 2.4473917, z: 1.25}
+    time: 105.36729
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.10816318, y: 2.2769356, z: 1.25}
+    time: 105.68665
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6022469, y: 2.6763926, z: 1.25}
+    time: 105.96444
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.16614768, y: 2.1442459, z: 1.25}
+    time: 106.339386
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6039964, y: 2.7162294, z: 1.25}
+    time: 106.63101
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.0632506, y: 2.240174, z: 1.25}
+    time: 106.936806
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.47104686, y: 2.6951606, z: 1.25}
+    time: 107.006004
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.17540745, y: 2.145701, z: 1.25}
+    time: 107.20088
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.46382532, y: 2.642332, z: 1.25}
+    time: 107.26993
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.20336008, y: 2.1987896, z: 1.25}
+    time: 107.42266
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.3779001, y: 2.3888502, z: 1.25}
+    time: 107.5893
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.041778773, y: 2.1065245, z: 1.25}
+    time: 108.28383
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.56503826, y: 2.8395388, z: 1.25}
+    time: 108.34428
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.02889055, y: 2.1318517, z: 1.25}
+    time: 108.56267
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.49733958, y: 2.6013994, z: 1.25}
+    time: 108.616
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.014180958, y: 2.280812, z: 1.25}
+    time: 108.82509
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5609384, y: 2.1829798, z: 1.25}
+    time: 109.57549
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.36853826, y: 2.0915606, z: 1.25}
+    time: 109.7835
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.70643675, y: 2.3742886, z: 1.25}
+    time: 109.977875
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.29193074, y: 2.1695147, z: 1.25}
+    time: 110.21413
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.69820386, y: 2.5245633, z: 1.25}
+    time: 110.54732
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.24469247, y: 2.1868978, z: 1.25}
+    time: 110.90849
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.88276756, y: 2.733727, z: 1.25}
+    time: 111.24167
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.2676698, y: 2.0168939, z: 1.25}
+    time: 111.61688
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.48115745, y: 2.4985268, z: 1.25}
+    time: 111.90845
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.0659274, y: 2.193873, z: 1.25}
+    time: 112.24157
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4019452, y: 2.3618836, z: 1.25}
+    time: 112.31115
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.24790409, y: 2.4198756, z: 1.25}
+    time: 112.75537
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6940076, y: 2.5700564, z: 1.25}
+    time: 112.89442
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.18533537, y: 2.197852, z: 1.25}
+    time: 113.36665
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.55397666, y: 2.8194997, z: 1.25}
+    time: 113.49184
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.06906466, y: 2.2689216, z: 1.25}
+    time: 113.99136
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.64577407, y: 2.636309, z: 1.25}
+    time: 114.07481
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.26908305, y: 2.1510322, z: 1.25}
+    time: 114.2693
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.67818815, y: 2.7346234, z: 1.25}
+    time: 114.33884
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.19359499, y: 2.2102885, z: 1.25}
+    time: 114.82487
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5812634, y: 2.5250254, z: 1.25}
+    time: 115.01926
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.17189558, y: 2.18759, z: 1.25}
+    time: 115.4361
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.5571538, y: 2.6095707, z: 1.25}
+    time: 115.561516
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.018278405, y: 2.1567016, z: 1.25}
+    time: 116.06097
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.43919557, y: 2.5416303, z: 1.25}
+    time: 116.19968
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.028624415, y: 2.2997043, z: 1.25}
+    time: 116.64412
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.57201385, y: 2.5788329, z: 1.25}
+    time: 116.74147
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.28656483, y: 2.240141, z: 1.25}
+    time: 116.93568
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6119046, y: 2.68198, z: 1.25}
+    time: 117.01906
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.48946953, y: 2.3356333, z: 1.25}
+    time: 117.19963
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.69466496, y: 2.5862367, z: 1.25}
+    time: 117.42174
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.12615037, y: 2.2655668, z: 1.25}
+    time: 117.907845
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6039495, y: 2.6735241, z: 1.25}
+    time: 118.24153
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.16481403, y: 2.3462815, z: 1.25}
+    time: 118.64392
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.4948923, y: 2.4508958, z: 1.25}
+    time: 118.93538
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.27081662, y: 2.2034187, z: 1.25}
+    time: 119.25542
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.6697742, y: 2.457215, z: 1.25}
+    time: 119.62998
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.24394402, y: 2.3690398, z: 1.25}
+    time: 120.01871
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.68619806, y: 2.503703, z: 1.25}
+    time: 120.39387
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: -0.110267885, y: 2.4747386, z: 1.25}
+    time: 120.79658
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.1250888, y: 2.4290953, z: 1.25}
+    time: 122.75477
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.26608422, y: 2.1875105, z: 1.25}
+    time: 125.6573
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: -0.47852197, y: 2.4418845, z: 1.25}
+    time: 126.51875
+    noteType: 0
+    isLeft: 1
+  - spawnPos: {x: 0.056659266, y: 2.2467577, z: 1.25}
+    time: 127.85212
+    noteType: 0
+    isLeft: 0
+  - spawnPos: {x: 0.107195675, y: 2.253687, z: 1.25}
+    time: 129.21326
+    noteType: 0
+    isLeft: 0
