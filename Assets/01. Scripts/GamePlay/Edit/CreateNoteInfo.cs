@@ -5,18 +5,22 @@ using System.Collections.Generic;
 
 public class CreateNoteInfo : MonoBehaviour
 {
-    public GameInfo info;
+    private GameInfo info;
 
     public bool isStart;
 
     public InputActionReference leftButtonInput;
+    public InputActionReference leftSpecialButtonInput;
     public InputActionReference rightButtonInput;
+    public InputActionReference rightSpecialButtonInput;
 
     public Transform leftController;
     public Transform rightController;
 
     private bool isLeftInput;
+    private bool isLeftSpecialInput;
     private bool isRightInput;
+    private bool isRightSpecialInput;
 
     public float songProgress;
 
@@ -30,19 +34,35 @@ public class CreateNoteInfo : MonoBehaviour
 
             rightButtonInput.action.performed += CheckRightBtnTrigger;
 
+            leftSpecialButtonInput.action.performed += CheckLeftSpecialBtnTrigger;
+
+            rightSpecialButtonInput.action.performed += CheckRightSpecialBtnTrigger;
+
             if (isLeftInput)
             {
-                info.noteInfos.Add(new GameInfo.NoteInfo(GetLeftRayPosition(), songProgress, NoteType.Normal, true));
+                info.noteInfos.Add(new GameInfo.NoteInfo(GetLeftRayPosition(), songProgress, true, false));
             }
 
             if (isRightInput)
             {
-                info.noteInfos.Add(new GameInfo.NoteInfo(GetRightRayPosition(), songProgress, NoteType.Normal, false));
+                info.noteInfos.Add(new GameInfo.NoteInfo(GetRightRayPosition(), songProgress, false, false));
+            }
+
+            if (isLeftSpecialInput)
+            {
+                info.noteInfos.Add(new GameInfo.NoteInfo(GetLeftRayPosition(), songProgress, true, true));
+            }
+
+            if (isRightSpecialInput)
+            {
+                info.noteInfos.Add(new GameInfo.NoteInfo(GetRightRayPosition(), songProgress, false, true));
             }
         }
 
         isLeftInput = false;
         isRightInput = false;
+        isLeftSpecialInput = false;
+        isRightSpecialInput = false;
     }
 
     private Vector3 GetLeftRayPosition()
@@ -74,10 +94,21 @@ public class CreateNoteInfo : MonoBehaviour
         isRightInput = true;
     }
 
+    private void CheckLeftSpecialBtnTrigger(InputAction.CallbackContext obj)
+    {
+        isLeftSpecialInput = true;
+    }
+
+    private void CheckRightSpecialBtnTrigger(InputAction.CallbackContext obj)
+    {
+        isRightSpecialInput = true;
+    }
+
     #endregion
 
     private void Start()
     {
+        info = GamePlayManager.instance.gameInfo;
         SetSong();
     }
 
@@ -89,7 +120,9 @@ public class CreateNoteInfo : MonoBehaviour
 
     private IEnumerator StartSong()
     {
-        yield return new WaitForSeconds(5); 
+        yield return new WaitForSeconds(2);
+        print("1");
+        yield return new WaitForSeconds(1);
 
         float progress = 0f;
 

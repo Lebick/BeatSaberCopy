@@ -1,12 +1,14 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class StartBtn : MonoBehaviour
 {
-    private int currentIndex;
+    public int currentIndex;
 
     public List<GameObject> songUIs = new();
+    public List<GameInfo> songInfos = new();
 
     private bool isStart;
     public GameObject startUI;
@@ -29,6 +31,7 @@ public class StartBtn : MonoBehaviour
         }
         else
         {
+            GamePlayManager.instance.gameInfo = songInfos[currentIndex];
             canvasGroup.interactable = false;
             StartCoroutine(GameStart());
         }
@@ -77,6 +80,8 @@ public class StartBtn : MonoBehaviour
         }
 
         //test.SetSong();
-        test2.SetSong(); 
+        test2.SetSong();
+
+        canvasGroup.gameObject.SetActive(false);
     }
 }

@@ -1,0 +1,2059 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a041315460ead4ca5337409cee93ef, type: 3}
+  m_Name: Creature
+  m_EditorClassIdentifier: 
+  song: {fileID: 8300000, guid: 8dda675b9843af24ea7a9f7537c52220, type: 3}
+  bpm: 175
+  offset: 0
+  songName: <size=12>RainbowDragonEyes - Creatures ov Deception</size>
+  noteInfos:
+  - spawnPos: {x: 0.49050274, y: 2.427098, z: 1.1199999}
+    time: 0.9115412
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6609553, y: 2.5240505, z: 1.1199999}
+    time: 1.0926133
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5941252, y: 2.407073, z: 1.1199999}
+    time: 1.259223
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5337177, y: 2.424411, z: 1.1199999}
+    time: 1.467146
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6997148, y: 2.4219062, z: 1.1199999}
+    time: 1.6345813
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.62410986, y: 2.462859, z: 1.1199999}
+    time: 1.7722081
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7957936, y: 2.5265472, z: 1.1199999}
+    time: 1.9250476
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.71795917, y: 2.432482, z: 1.1199999}
+    time: 2.0921092
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.42507052, y: 2.3781154, z: 1.1199999}
+    time: 2.2592137
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7769493, y: 2.4217741, z: 1.1199999}
+    time: 2.3843544
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.61866, y: 2.4964213, z: 1.1199999}
+    time: 2.5096226
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6993654, y: 2.5418584, z: 1.1199999}
+    time: 2.7313285
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.85886097, y: 2.6493871, z: 1.1199999}
+    time: 2.8554869
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6817213, y: 2.4901388, z: 1.1199999}
+    time: 2.9985466
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.77153945, y: 2.5473425, z: 1.1199999}
+    time: 3.1638288
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.74679697, y: 2.469074, z: 1.1199999}
+    time: 3.30058
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7578415, y: 2.5433393, z: 1.1199999}
+    time: 3.4670157
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.891631, y: 2.5322149, z: 1.1199999}
+    time: 3.633317
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.75842965, y: 2.5236669, z: 1.1199999}
+    time: 3.8004816
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.8677026, y: 2.5555105, z: 1.1199999}
+    time: 3.9541197
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.8692199, y: 2.6397862, z: 1.1199999}
+    time: 4.107202
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.70298547, y: 2.5191998, z: 1.1199999}
+    time: 4.2725854
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.8280215, y: 2.5403821, z: 1.1199999}
+    time: 4.383595
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.7750714, y: 2.4402847, z: 1.1199999}
+    time: 4.5660806
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.84587216, y: 2.635374, z: 1.1199999}
+    time: 4.703389
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7372695, y: 2.4807377, z: 1.1199999}
+    time: 4.885084
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7311865, y: 2.6578915, z: 1.1199999}
+    time: 5.0507636
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.7402086, y: 2.713957, z: 1.1199999}
+    time: 5.2066493
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.73844683, y: 2.571932, z: 1.1199999}
+    time: 5.3714366
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7024722, y: 2.5840073, z: 1.1199999}
+    time: 5.5103407
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.630484, y: 2.5113485, z: 1.1199999}
+    time: 5.6897326
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6529269, y: 2.5269494, z: 1.1199999}
+    time: 5.8304605
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5819535, y: 2.4541445, z: 1.1199999}
+    time: 5.9982862
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7361945, y: 2.460904, z: 1.1199999}
+    time: 6.123633
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.62805426, y: 2.4466777, z: 1.1199999}
+    time: 6.315942
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.55854684, y: 2.4567494, z: 1.1199999}
+    time: 6.4845324
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.636974, y: 2.6056876, z: 1.1199999}
+    time: 6.621976
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6087399, y: 2.3707688, z: 1.1199999}
+    time: 6.7733803
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7083925, y: 2.5059583, z: 1.1199999}
+    time: 6.9415083
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.7468526, y: 2.482922, z: 1.1199999}
+    time: 7.1062355
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5965563, y: 2.3307238, z: 1.1199999}
+    time: 7.2866483
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7545942, y: 2.4326732, z: 1.1199999}
+    time: 7.4121637
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6218718, y: 2.4275956, z: 1.1199999}
+    time: 7.5517836
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.7111356, y: 2.389697, z: 1.1199999}
+    time: 7.7190304
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.81401336, y: 2.4656925, z: 1.1199999}
+    time: 7.887678
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.62462664, y: 2.3807354, z: 1.1199999}
+    time: 8.051163
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7380277, y: 2.4787571, z: 1.1199999}
+    time: 8.18927
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.7841977, y: 2.2876804, z: 1.1199999}
+    time: 8.343935
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5905018, y: 2.4159617, z: 1.1199999}
+    time: 8.482426
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.8263595, y: 2.5112839, z: 1.1199999}
+    time: 8.638464
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.55578274, y: 2.3850677, z: 1.1199999}
+    time: 8.828795
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5586165, y: 2.4355893, z: 1.1199999}
+    time: 8.996578
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.62518877, y: 2.4718523, z: 1.1199999}
+    time: 9.136379
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4909767, y: 2.332199, z: 1.1199999}
+    time: 9.301473
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7305258, y: 2.4290833, z: 1.1199999}
+    time: 9.496611
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.51796037, y: 2.3428426, z: 1.1199999}
+    time: 9.62135
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5952004, y: 2.333514, z: 1.1199999}
+    time: 10.4133005
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.71895486, y: 2.492747, z: 1.1199999}
+    time: 10.539026
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6529674, y: 2.3345783, z: 1.1199999}
+    time: 10.705425
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.50147325, y: 2.319615, z: 1.1199999}
+    time: 10.858682
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6338022, y: 2.3966794, z: 1.1199999}
+    time: 10.995196
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5140601, y: 2.321745, z: 1.1199999}
+    time: 11.149741
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5615142, y: 2.3211277, z: 1.1199999}
+    time: 11.357731
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.63177234, y: 2.355668, z: 1.1199999}
+    time: 11.508641
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.51558864, y: 2.2698777, z: 1.1199999}
+    time: 11.676244
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60768104, y: 2.3446434, z: 1.1199999}
+    time: 11.8152
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.33160603, y: 2.3722813, z: 1.1199999}
+    time: 12.0093155
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4185266, y: 2.3509278, z: 1.1199999}
+    time: 12.161437
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60118467, y: 2.3900807, z: 1.1199999}
+    time: 12.343184
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47093475, y: 2.343242, z: 1.1199999}
+    time: 12.4538
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.70447695, y: 2.601107, z: 1.1199999}
+    time: 12.62419
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.69366145, y: 2.4313571, z: 1.1199999}
+    time: 12.7929535
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.561443, y: 2.3855884, z: 1.1199999}
+    time: 12.930909
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6276598, y: 2.4189258, z: 1.1199999}
+    time: 13.073345
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5080583, y: 2.3767457, z: 1.1199999}
+    time: 13.230807
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5112771, y: 2.3677132, z: 1.1199999}
+    time: 13.397122
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61639404, y: 2.4136105, z: 1.1199999}
+    time: 13.580031
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.52562994, y: 2.3599796, z: 1.1199999}
+    time: 13.718242
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.55655664, y: 2.389568, z: 1.1199999}
+    time: 13.856649
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5789352, y: 2.3464603, z: 1.1199999}
+    time: 14.05079
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.51716924, y: 2.3549604, z: 1.1199999}
+    time: 14.203251
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59435165, y: 2.3703747, z: 1.1199999}
+    time: 14.342702
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.49988228, y: 2.347878, z: 1.1199999}
+    time: 14.480596
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5491877, y: 2.3480055, z: 1.1199999}
+    time: 14.690471
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6456586, y: 2.3484027, z: 1.1199999}
+    time: 14.842922
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5567945, y: 2.344247, z: 1.1199999}
+    time: 14.995263
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6291111, y: 2.3988729, z: 1.1199999}
+    time: 15.134828
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5899017, y: 2.3514931, z: 1.1199999}
+    time: 15.314756
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5853505, y: 2.3125238, z: 1.1199999}
+    time: 15.4670925
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7073059, y: 2.4254396, z: 1.1199999}
+    time: 15.606253
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.54697263, y: 2.309884, z: 1.1199999}
+    time: 15.748107
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5829057, y: 2.2707646, z: 1.1199999}
+    time: 15.941052
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6938484, y: 2.5783534, z: 1.1199999}
+    time: 16.066809
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.65197676, y: 2.2717624, z: 1.1199999}
+    time: 16.21894
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6265385, y: 2.496173, z: 1.1199999}
+    time: 16.356379
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.66818637, y: 2.3108463, z: 1.1199999}
+    time: 16.553844
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.63028634, y: 2.3813884, z: 1.1199999}
+    time: 16.675655
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.69997144, y: 2.3450572, z: 1.1199999}
+    time: 16.897465
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5397644, y: 2.328705, z: 1.1199999}
+    time: 17.079075
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6242155, y: 2.3294575, z: 1.1199999}
+    time: 17.232595
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5721382, y: 2.3385758, z: 1.1199999}
+    time: 17.358759
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5759989, y: 2.3792546, z: 1.1199999}
+    time: 17.536095
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6493216, y: 2.3914716, z: 1.1199999}
+    time: 17.63433
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6679652, y: 2.3655982, z: 1.1199999}
+    time: 17.804031
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.49889183, y: 2.3215725, z: 1.1199999}
+    time: 17.96693
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.73078704, y: 2.3469098, z: 1.1199999}
+    time: 18.107937
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45176885, y: 2.284954, z: 1.1199999}
+    time: 18.275822
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4267256, y: 2.2714016, z: 1.1199999}
+    time: 18.481186
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.66633976, y: 2.398612, z: 1.1199999}
+    time: 18.633265
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.44153678, y: 2.2657084, z: 1.1199999}
+    time: 18.786594
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.66754943, y: 2.3563433, z: 1.1199999}
+    time: 18.926569
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6646571, y: 2.3648627, z: 1.1199999}
+    time: 19.092422
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.46198952, y: 2.2791722, z: 1.1199999}
+    time: 19.272837
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.65695053, y: 2.3797476, z: 1.1199999}
+    time: 19.429192
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5100273, y: 2.3005228, z: 1.1199999}
+    time: 19.553432
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6770371, y: 2.3643608, z: 1.1199999}
+    time: 19.719385
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4877314, y: 2.2748303, z: 1.1199999}
+    time: 19.911358
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6940805, y: 2.2731965, z: 1.1199999}
+    time: 20.203445
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48896277, y: 2.3468382, z: 1.1199999}
+    time: 20.49576
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6102071, y: 2.4699392, z: 1.1199999}
+    time: 20.689646
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48034528, y: 2.3959558, z: 1.1199999}
+    time: 21.46959
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6983559, y: 2.4317272, z: 1.1199999}
+    time: 21.620392
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5302251, y: 2.2911708, z: 1.1199999}
+    time: 21.760717
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.62224597, y: 2.4667437, z: 1.1199999}
+    time: 22.494783
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5357721, y: 2.3077493, z: 1.1199999}
+    time: 22.649725
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59549356, y: 2.406912, z: 1.1199999}
+    time: 22.830475
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4907102, y: 2.2548373, z: 1.1199999}
+    time: 23.010767
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.54480493, y: 2.2825606, z: 1.1199999}
+    time: 23.387056
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5969907, y: 2.3984456, z: 1.1199999}
+    time: 23.677277
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6786094, y: 2.524838, z: 1.1199999}
+    time: 23.995943
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5211004, y: 2.297663, z: 1.1199999}
+    time: 24.135284
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5465754, y: 2.3496528, z: 1.1199999}
+    time: 24.942286
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59359086, y: 2.3482988, z: 1.1199999}
+    time: 25.106628
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56508404, y: 2.3205242, z: 1.1199999}
+    time: 25.26034
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.660365, y: 2.5228734, z: 1.1199999}
+    time: 25.410538
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5714317, y: 2.317331, z: 1.1199999}
+    time: 25.550089
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61458266, y: 2.5233264, z: 1.1199999}
+    time: 25.702114
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.471385, y: 2.2511156, z: 1.1199999}
+    time: 26.521719
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.56190157, y: 2.4732442, z: 1.1199999}
+    time: 26.633806
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.50140816, y: 2.254655, z: 1.1199999}
+    time: 26.841787
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.54768425, y: 2.2629883, z: 1.1199999}
+    time: 27.591764
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4823347, y: 2.2633321, z: 1.1199999}
+    time: 27.759228
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5942247, y: 2.2773714, z: 1.1199999}
+    time: 27.925299
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48912507, y: 2.2472615, z: 1.1199999}
+    time: 28.06404
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5051304, y: 2.276779, z: 1.1199999}
+    time: 28.424412
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.64860415, y: 2.4631338, z: 1.1199999}
+    time: 28.71772
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.58197206, y: 2.2974765, z: 1.1199999}
+    time: 29.038494
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5313338, y: 2.2872086, z: 1.1199999}
+    time: 29.192503
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6362776, y: 2.2927475, z: 1.1199999}
+    time: 29.343473
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6500484, y: 2.4000497, z: 1.1199999}
+    time: 30.286442
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.65641785, y: 2.4137473, z: 1.1199999}
+    time: 30.42608
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6088903, y: 2.264821, z: 1.1199999}
+    time: 30.619177
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.67283595, y: 2.4662886, z: 1.1199999}
+    time: 30.924372
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.72248256, y: 2.290086, z: 1.1199999}
+    time: 31.259172
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.65095663, y: 2.3513486, z: 1.1199999}
+    time: 31.577595
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6668087, y: 2.37406, z: 1.1199999}
+    time: 31.718214
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6620072, y: 2.366103, z: 1.1199999}
+    time: 31.883
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7016221, y: 2.374032, z: 1.1199999}
+    time: 32.06354
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6803034, y: 2.4508133, z: 1.1199999}
+    time: 32.37268
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.58151734, y: 2.345811, z: 1.1199999}
+    time: 32.508755
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.704255, y: 2.466388, z: 1.1199999}
+    time: 32.855865
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5928784, y: 2.33121, z: 1.1199999}
+    time: 33.147083
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7197667, y: 2.3615284, z: 1.1199999}
+    time: 33.46673
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6441543, y: 2.3877115, z: 1.1199999}
+    time: 33.801632
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6885574, y: 2.384355, z: 1.1199999}
+    time: 34.146427
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.52367353, y: 2.3134973, z: 1.1199999}
+    time: 34.43871
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.62734604, y: 2.364737, z: 1.1199999}
+    time: 34.577587
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.68729097, y: 2.3918874, z: 1.1199999}
+    time: 34.883728
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.54197425, y: 2.2511795, z: 1.1199999}
+    time: 35.245213
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.62244654, y: 2.3020492, z: 1.1199999}
+    time: 35.384735
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5501411, y: 2.2461133, z: 1.1199999}
+    time: 35.52173
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.57230574, y: 2.310486, z: 1.1199999}
+    time: 35.703285
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.54290795, y: 2.276201, z: 1.1199999}
+    time: 35.980072
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5389194, y: 2.2521467, z: 1.1199999}
+    time: 36.355804
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6072824, y: 2.262814, z: 1.1199999}
+    time: 36.67458
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5235511, y: 2.2467582, z: 1.1199999}
+    time: 36.773067
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60479105, y: 2.2917902, z: 1.1199999}
+    time: 36.966103
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5287761, y: 2.208212, z: 1.1199999}
+    time: 37.23122
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61018634, y: 2.3240075, z: 1.1199999}
+    time: 37.59276
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56276226, y: 2.258817, z: 1.1199999}
+    time: 38.222153
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5884711, y: 2.3952878, z: 1.1199999}
+    time: 38.527752
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.44003314, y: 2.3724024, z: 1.1199999}
+    time: 38.803875
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6495006, y: 2.4778247, z: 1.1199999}
+    time: 39.136967
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7361833, y: 2.4423244, z: 1.1199999}
+    time: 39.47006
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.62251663, y: 2.3664763, z: 1.1199999}
+    time: 40.05421
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5915764, y: 2.3152282, z: 1.1199999}
+    time: 40.248848
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5465774, y: 2.288547, z: 1.1199999}
+    time: 40.425198
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5452603, y: 2.2754169, z: 1.1199999}
+    time: 40.60613
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5783139, y: 2.2708092, z: 1.1199999}
+    time: 40.744514
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7264488, y: 2.3155315, z: 1.1199999}
+    time: 41.021694
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5513939, y: 2.2297034, z: 1.1199999}
+    time: 41.36903
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5820054, y: 2.2487078, z: 1.1199999}
+    time: 41.703114
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.58073854, y: 2.2522907, z: 1.1199999}
+    time: 41.813663
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5465435, y: 2.2619708, z: 1.1199999}
+    time: 41.98071
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5855341, y: 2.245368, z: 1.1199999}
+    time: 42.273
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.62961435, y: 2.264173, z: 1.1199999}
+    time: 42.63242
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6406046, y: 2.4035006, z: 1.1199999}
+    time: 42.965622
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6593244, y: 2.4529893, z: 1.1199999}
+    time: 43.24357
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6071304, y: 2.274938, z: 1.1199999}
+    time: 43.535625
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5695653, y: 2.2561255, z: 1.1199999}
+    time: 43.896755
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6415956, y: 2.3470275, z: 1.1199999}
+    time: 43.92406
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.635401, y: 2.2901993, z: 1.1199999}
+    time: 44.175446
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.66349643, y: 2.2416933, z: 1.1199999}
+    time: 44.5359
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6077572, y: 2.4132962, z: 1.1199999}
+    time: 44.66245
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.70719814, y: 2.3743591, z: 1.1199999}
+    time: 45.479782
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.75104785, y: 2.4411309, z: 1.1199999}
+    time: 45.618652
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7095744, y: 2.3800454, z: 1.1199999}
+    time: 45.786564
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7520601, y: 2.512023, z: 1.1199999}
+    time: 46.091618
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7252083, y: 2.3578515, z: 1.1199999}
+    time: 46.396828
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6909864, y: 2.3636909, z: 1.1199999}
+    time: 46.74433
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7480091, y: 2.4828186, z: 1.1199999}
+    time: 47.075684
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.7335744, y: 2.3758514, z: 1.1199999}
+    time: 47.382412
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.88279057, y: 2.6133418, z: 1.1199999}
+    time: 47.507446
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6879045, y: 2.3309376, z: 1.1199999}
+    time: 47.99471
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.77433205, y: 2.3558567, z: 1.1199999}
+    time: 48.312885
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.615641, y: 2.3092675, z: 1.1199999}
+    time: 48.312885
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6083293, y: 2.3837416, z: 1.1199999}
+    time: 48.61945
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60673654, y: 2.4450927, z: 1.1199999}
+    time: 48.923836
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.63876677, y: 2.2985983, z: 1.1199999}
+    time: 49.216
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.64660394, y: 2.2964613, z: 1.1199999}
+    time: 49.550564
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.57514477, y: 2.499799, z: 1.1199999}
+    time: 49.701942
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6034483, y: 2.4161255, z: 1.1199999}
+    time: 50.202244
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6000615, y: 2.4516351, z: 1.1199999}
+    time: 50.32613
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6213066, y: 2.3353157, z: 1.1199999}
+    time: 50.52098
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5689651, y: 2.3735838, z: 1.1199999}
+    time: 50.702106
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6013007, y: 2.3096383, z: 1.1199999}
+    time: 50.85342
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6718087, y: 2.5060327, z: 1.1199999}
+    time: 51.13276
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5748608, y: 2.3309646, z: 1.1199999}
+    time: 51.160686
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5356512, y: 2.3264108, z: 1.1199999}
+    time: 51.464077
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.73179424, y: 2.378139, z: 1.1199999}
+    time: 51.770756
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.529646, y: 2.400542, z: 1.1199999}
+    time: 52.132977
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.576143, y: 2.3107142, z: 1.1199999}
+    time: 52.409733
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.56569946, y: 2.2747307, z: 1.1199999}
+    time: 52.756435
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.47035176, y: 2.4467707, z: 1.1199999}
+    time: 52.868084
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.53555375, y: 2.3353772, z: 1.1199999}
+    time: 53.020073
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.47240132, y: 2.3782132, z: 1.1199999}
+    time: 53.201427
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5572221, y: 2.317543, z: 1.1199999}
+    time: 53.367966
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5086136, y: 2.3481548, z: 1.1199999}
+    time: 53.523296
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.54758453, y: 2.3127112, z: 1.1199999}
+    time: 53.675182
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.519385, y: 2.3394814, z: 1.1199999}
+    time: 53.84018
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5346534, y: 2.2986674, z: 1.1199999}
+    time: 53.97877
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.43603364, y: 2.3404737, z: 1.1199999}
+    time: 54.133705
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.67426157, y: 2.3847747, z: 1.1199999}
+    time: 54.313206
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.35697138, y: 2.4205794, z: 1.1199999}
+    time: 54.478855
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6222917, y: 2.3387287, z: 1.1199999}
+    time: 54.646564
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.63976586, y: 2.3902845, z: 1.1199999}
+    time: 55.089264
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.47151792, y: 2.4449294, z: 1.1199999}
+    time: 55.273876
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6436696, y: 2.352406, z: 1.1199999}
+    time: 55.425804
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.4593972, y: 2.3716938, z: 1.1199999}
+    time: 55.61833
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.60374236, y: 2.4091177, z: 1.1199999}
+    time: 55.75683
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.52428085, y: 2.3710132, z: 1.1199999}
+    time: 55.936993
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6103679, y: 2.368122, z: 1.1199999}
+    time: 56.214775
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6139358, y: 2.311093, z: 1.1199999}
+    time: 56.524143
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5304849, y: 2.4115498, z: 1.1199999}
+    time: 56.63424
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.59607404, y: 2.4076815, z: 1.1199999}
+    time: 56.811302
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5068164, y: 2.4329054, z: 1.1199999}
+    time: 56.965225
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6541042, y: 2.3995888, z: 1.1199999}
+    time: 57.159332
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.49202555, y: 2.3918324, z: 1.1199999}
+    time: 57.340096
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6250347, y: 2.4307075, z: 1.1199999}
+    time: 57.47806
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.54829335, y: 2.4793816, z: 1.1199999}
+    time: 57.631668
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.63091534, y: 2.4730105, z: 1.1199999}
+    time: 57.798798
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5567727, y: 2.5090082, z: 1.1199999}
+    time: 57.95104
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56650853, y: 2.5132856, z: 1.1199999}
+    time: 58.075653
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5456841, y: 2.5151424, z: 1.1199999}
+    time: 58.25842
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5565871, y: 2.4640107, z: 1.1199999}
+    time: 58.436974
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.56163037, y: 2.4622262, z: 1.1199999}
+    time: 58.59041
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5449528, y: 2.4834177, z: 1.1199999}
+    time: 58.770817
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5267194, y: 2.4882107, z: 1.1199999}
+    time: 58.9241
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.53673494, y: 2.4924448, z: 1.1199999}
+    time: 59.006596
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5094085, y: 2.4589796, z: 1.1199999}
+    time: 59.076176
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.54658437, y: 2.490217, z: 1.1199999}
+    time: 59.230244
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5709785, y: 2.4157376, z: 1.1199999}
+    time: 59.396603
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5359616, y: 2.438185, z: 1.1199999}
+    time: 59.534985
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.63814163, y: 2.3687124, z: 1.1199999}
+    time: 59.686985
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5752541, y: 2.338156, z: 1.1199999}
+    time: 60.006107
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6495795, y: 2.4107533, z: 1.1199999}
+    time: 60.297554
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5549151, y: 2.331244, z: 1.1199999}
+    time: 60.3126
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6056372, y: 2.4176104, z: 1.1199999}
+    time: 60.63421
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.61782515, y: 2.5449784, z: 1.1199999}
+    time: 60.925217
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.68945146, y: 2.4612563, z: 1.1199999}
+    time: 61.257553
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5396029, y: 2.452153, z: 1.1199999}
+    time: 61.56385
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59477496, y: 2.3872685, z: 1.1199999}
+    time: 61.92424
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5681182, y: 2.3428829, z: 1.1199999}
+    time: 62.22937
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5647818, y: 2.4163141, z: 1.1199999}
+    time: 62.521347
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5919055, y: 2.410438, z: 1.1199999}
+    time: 62.81388
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7112328, y: 2.4668293, z: 1.1199999}
+    time: 62.993607
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56820226, y: 2.3902202, z: 1.1199999}
+    time: 63.14512
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5980525, y: 2.387045, z: 1.1199999}
+    time: 63.31208
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5572176, y: 2.4047925, z: 1.1199999}
+    time: 63.450825
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.65808177, y: 2.3776693, z: 1.1199999}
+    time: 63.632954
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56577766, y: 2.4124327, z: 1.1199999}
+    time: 63.77056
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7718536, y: 2.462182, z: 1.1199999}
+    time: 63.968716
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5697221, y: 2.3782506, z: 1.1199999}
+    time: 64.10925
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.73034775, y: 2.4368987, z: 1.1199999}
+    time: 64.273926
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.55155027, y: 2.3818922, z: 1.1199999}
+    time: 64.44093
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7700322, y: 2.4185817, z: 1.1199999}
+    time: 64.57604
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.56275606, y: 2.370792, z: 1.1199999}
+    time: 64.74213
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.71393216, y: 2.5222342, z: 1.1199999}
+    time: 65.19985
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5697211, y: 2.468472, z: 1.1199999}
+    time: 65.396194
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.57368517, y: 2.3097034, z: 1.1199999}
+    time: 65.49414
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.594603, y: 2.4443119, z: 1.1199999}
+    time: 65.672455
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.57679904, y: 2.3617618, z: 1.1199999}
+    time: 65.82409
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.52352095, y: 2.4382522, z: 1.1199999}
+    time: 65.98012
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.64943707, y: 2.256823, z: 1.1199999}
+    time: 66.327156
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6231008, y: 2.3050537, z: 1.1199999}
+    time: 66.64668
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6295717, y: 2.4899085, z: 1.1199999}
+    time: 66.800385
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.6035927, y: 2.3573868, z: 1.1199999}
+    time: 66.97703
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.64632905, y: 2.4140668, z: 1.1199999}
+    time: 67.10476
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5733373, y: 2.3659625, z: 1.1199999}
+    time: 67.24521
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59308743, y: 2.3758557, z: 1.1199999}
+    time: 67.42519
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.57671833, y: 2.3566866, z: 1.1199999}
+    time: 67.54922
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.62106967, y: 2.403936, z: 1.1199999}
+    time: 67.7292
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5460869, y: 2.3574872, z: 1.1199999}
+    time: 67.89366
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61575776, y: 2.3883991, z: 1.1199999}
+    time: 68.04708
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5314189, y: 2.3185403, z: 1.1199999}
+    time: 68.188934
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59011567, y: 2.4229817, z: 1.1199999}
+    time: 68.34001
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.52103484, y: 2.315867, z: 1.1199999}
+    time: 68.50807
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.501487, y: 2.36802, z: 1.1199999}
+    time: 68.68823
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.52549314, y: 2.36648, z: 1.1199999}
+    time: 68.86771
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6404544, y: 2.3800366, z: 1.1199999}
+    time: 68.994255
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.51053756, y: 2.3406804, z: 1.1199999}
+    time: 69.074936
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5791451, y: 2.3762481, z: 1.1199999}
+    time: 69.145515
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48720896, y: 2.3066516, z: 1.1199999}
+    time: 69.29791
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5902122, y: 2.3138485, z: 1.1199999}
+    time: 69.46675
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4737101, y: 2.3181422, z: 1.1199999}
+    time: 69.63112
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5988524, y: 2.3224728, z: 1.1199999}
+    time: 69.77089
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.52387345, y: 2.413536, z: 1.1199999}
+    time: 71.32639
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.49850804, y: 2.3750217, z: 1.1199999}
+    time: 71.52018
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5463651, y: 2.3542542, z: 1.1199999}
+    time: 71.97815
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4291318, y: 2.2315907, z: 1.1199999}
+    time: 72.13451
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6183118, y: 2.4549341, z: 1.1199999}
+    time: 72.28407
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48852485, y: 2.3298886, z: 1.1199999}
+    time: 72.63261
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6686177, y: 2.4249072, z: 1.1199999}
+    time: 72.89499
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.728019, y: 2.4221442, z: 1.1199999}
+    time: 73.2562
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5880374, y: 2.365272, z: 1.1199999}
+    time: 73.38343
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.65430784, y: 2.4135613, z: 1.1199999}
+    time: 73.56173
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5887091, y: 2.3313239, z: 1.1199999}
+    time: 73.853165
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.68254906, y: 2.3710554, z: 1.1199999}
+    time: 74.18649
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5729208, y: 2.3245163, z: 1.1199999}
+    time: 74.21389
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.59118104, y: 2.373982, z: 1.1199999}
+    time: 74.50542
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.70028746, y: 2.4205325, z: 1.1199999}
+    time: 74.83845
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.61499023, y: 2.2810652, z: 1.1199999}
+    time: 75.11733
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.74536365, y: 2.475063, z: 1.1199999}
+    time: 75.46649
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5940057, y: 2.3584654, z: 1.1199999}
+    time: 75.46649
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6129864, y: 2.3648007, z: 1.1199999}
+    time: 75.79837
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.76346564, y: 2.5847983, z: 1.1199999}
+    time: 76.08994
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.66821206, y: 2.413057, z: 1.1199999}
+    time: 76.24221
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.81472987, y: 2.564537, z: 1.1199999}
+    time: 77.04968
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.65872467, y: 2.4404485, z: 1.1199999}
+    time: 77.1858
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7858864, y: 2.5355968, z: 1.1199999}
+    time: 77.3521
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.67175794, y: 2.3928742, z: 1.1199999}
+    time: 77.64436
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.78982055, y: 2.5446422, z: 1.1199999}
+    time: 77.95138
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.62414706, y: 2.3886163, z: 1.1199999}
+    time: 77.95138
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.6485133, y: 2.4127147, z: 1.1199999}
+    time: 78.31194
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.76729596, y: 2.5613937, z: 1.1199999}
+    time: 78.44939
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5961885, y: 2.4010158, z: 1.1199999}
+    time: 78.631676
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.61691487, y: 2.3933947, z: 1.1199999}
+    time: 78.93845
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.667536, y: 2.4530344, z: 1.1199999}
+    time: 79.11629
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.61475635, y: 2.4161546, z: 1.1199999}
+    time: 79.61619
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6643529, y: 2.509249, z: 1.1199999}
+    time: 79.86725
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5790454, y: 2.3936093, z: 1.1199999}
+    time: 79.86725
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5519323, y: 2.345948, z: 1.1199999}
+    time: 80.18906
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6732537, y: 2.4757175, z: 1.1199999}
+    time: 80.49066
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.54699326, y: 2.3607426, z: 1.1199999}
+    time: 80.8129
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6678108, y: 2.4179506, z: 1.1199999}
+    time: 81.17285
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.59878993, y: 2.334446, z: 1.1199999}
+    time: 81.81095
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.66633683, y: 2.436263, z: 1.1199999}
+    time: 81.977646
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.66029453, y: 2.390559, z: 1.1199999}
+    time: 82.0876
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5707145, y: 2.3613572, z: 1.1199999}
+    time: 82.22683
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6187119, y: 2.3264647, z: 1.1199999}
+    time: 82.42204
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5209227, y: 2.2892432, z: 1.1199999}
+    time: 82.68775
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5605308, y: 2.3471692, z: 1.1199999}
+    time: 83.059906
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.587064, y: 2.3997576, z: 1.1199999}
+    time: 83.22879
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5328533, y: 2.323333, z: 1.1199999}
+    time: 83.395325
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.606631, y: 2.312364, z: 1.1199999}
+    time: 83.53472
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4995891, y: 2.3143213, z: 1.1199999}
+    time: 83.68667
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5819787, y: 2.331555, z: 1.1199999}
+    time: 84.00483
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5426589, y: 2.2468758, z: 1.1199999}
+    time: 84.32428
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.50432456, y: 2.3156583, z: 1.1199999}
+    time: 84.47804
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6377449, y: 2.2840636, z: 1.1199999}
+    time: 84.61533
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4860712, y: 2.3473704, z: 1.1199999}
+    time: 84.782684
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6194645, y: 2.408176, z: 1.1199999}
+    time: 84.93511
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6980128, y: 2.3770196, z: 1.1199999}
+    time: 85.26885
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5208722, y: 2.4308856, z: 1.1199999}
+    time: 85.54786
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59666705, y: 2.3589354, z: 1.1199999}
+    time: 85.75657
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5005129, y: 2.309179, z: 1.1199999}
+    time: 85.90842
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5990591, y: 2.3672893, z: 1.1199999}
+    time: 86.061554
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.46967828, y: 2.3147898, z: 1.1199999}
+    time: 86.22782
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6690587, y: 2.459258, z: 1.1199999}
+    time: 86.82594
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.537726, y: 2.3242123, z: 1.1199999}
+    time: 87.198685
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4760682, y: 2.3156393, z: 1.1199999}
+    time: 87.43474
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.67125213, y: 2.4024975, z: 1.1199999}
+    time: 87.4518
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.50882214, y: 2.3365402, z: 1.1199999}
+    time: 87.75608
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6640943, y: 2.4048657, z: 1.1199999}
+    time: 88.10229
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.46583444, y: 2.3354166, z: 1.1199999}
+    time: 88.255455
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5993115, y: 2.3625324, z: 1.1199999}
+    time: 88.42276
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.46151415, y: 2.334566, z: 1.1199999}
+    time: 88.56184
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.58115697, y: 2.3851492, z: 1.1199999}
+    time: 88.768265
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4284166, y: 2.3090687, z: 1.1199999}
+    time: 88.92115
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.472844, y: 2.310144, z: 1.1199999}
+    time: 89.08933
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.59315586, y: 2.4003117, z: 1.1199999}
+    time: 89.268135
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4354307, y: 2.3040917, z: 1.1199999}
+    time: 89.40777
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6181911, y: 2.256178, z: 1.1199999}
+    time: 89.68544
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45499462, y: 2.3038533, z: 1.1199999}
+    time: 89.99443
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.52194184, y: 2.2635894, z: 1.1199999}
+    time: 90.02329
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4467631, y: 2.3173985, z: 1.1199999}
+    time: 90.32086
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.55584425, y: 2.394143, z: 1.1199999}
+    time: 90.6293
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.471952, y: 2.3210096, z: 1.1199999}
+    time: 90.94861
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5689194, y: 2.3869333, z: 1.1199999}
+    time: 91.26846
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4451567, y: 2.237052, z: 1.1199999}
+    time: 91.89332
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6407965, y: 2.2342052, z: 1.1199999}
+    time: 92.03213
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4796812, y: 2.2954504, z: 1.1199999}
+    time: 92.20116
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61778104, y: 2.3083384, z: 1.1199999}
+    time: 92.37011
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.49199024, y: 2.2839093, z: 1.1199999}
+    time: 92.533356
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6208657, y: 2.3526502, z: 1.1199999}
+    time: 92.83772
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4753374, y: 2.3112798, z: 1.1199999}
+    time: 93.14353
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6204108, y: 2.3172517, z: 1.1199999}
+    time: 93.451454
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6251732, y: 2.363482, z: 1.1199999}
+    time: 93.82371
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45222497, y: 2.2067444, z: 1.1199999}
+    time: 94.115204
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.5139259, y: 2.2951806, z: 1.1199999}
+    time: 94.424225
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6053882, y: 2.386876, z: 1.1199999}
+    time: 94.589226
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.51537085, y: 2.271841, z: 1.1199999}
+    time: 94.74046
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.595524, y: 2.3949702, z: 1.1199999}
+    time: 94.87981
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.49591893, y: 2.2803066, z: 1.1199999}
+    time: 95.04684
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6137841, y: 2.388948, z: 1.1199999}
+    time: 95.20036
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5109753, y: 2.3933523, z: 1.1199999}
+    time: 95.36536
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.52685773, y: 2.224545, z: 1.1199999}
+    time: 95.51826
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.58888805, y: 2.3632514, z: 1.1199999}
+    time: 95.68405
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47687858, y: 2.2775478, z: 1.1199999}
+    time: 95.837074
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.43290013, y: 2.2788742, z: 1.1199999}
+    time: 96.033615
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6049795, y: 2.4694295, z: 1.1199999}
+    time: 96.17032
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47109044, y: 2.2744117, z: 1.1199999}
+    time: 96.295654
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.61083096, y: 2.3801222, z: 1.1199999}
+    time: 96.97714
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61489487, y: 2.4142668, z: 1.1199999}
+    time: 97.270515
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.6598216, y: 2.4022067, z: 1.1199999}
+    time: 97.60027
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.48549864, y: 2.2602232, z: 1.1199999}
+    time: 97.87866
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.46285695, y: 2.2681236, z: 1.1199999}
+    time: 98.22958
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6000296, y: 2.3913097, z: 1.1199999}
+    time: 98.36724
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45849597, y: 2.2617261, z: 1.1199999}
+    time: 98.521645
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6603104, y: 2.442522, z: 1.1199999}
+    time: 98.65767
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47355688, y: 2.269643, z: 1.1199999}
+    time: 98.81183
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.47910693, y: 2.28398, z: 1.1199999}
+    time: 98.991234
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6396252, y: 2.390617, z: 1.1199999}
+    time: 99.145874
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.464694, y: 2.2970266, z: 1.1199999}
+    time: 99.28391
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5912492, y: 2.34187, z: 1.1199999}
+    time: 99.44902
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47394553, y: 2.2776685, z: 1.1199999}
+    time: 99.57535
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.45927694, y: 2.2871351, z: 1.1199999}
+    time: 99.80991
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.7358105, y: 2.4976745, z: 1.1199999}
+    time: 99.9196
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4778306, y: 2.2940493, z: 1.1199999}
+    time: 100.08688
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6802064, y: 2.451028, z: 1.1199999}
+    time: 100.42352
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.47939324, y: 2.2579298, z: 1.1199999}
+    time: 100.70045
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6531254, y: 2.41683, z: 1.1199999}
+    time: 100.880844
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.42006183, y: 2.245742, z: 1.1199999}
+    time: 101.04793
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4284152, y: 2.2829623, z: 1.1199999}
+    time: 101.22685
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.53713596, y: 2.3856137, z: 1.1199999}
+    time: 101.37828
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.41774577, y: 2.1916819, z: 1.1199999}
+    time: 101.68471
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.3858397, y: 2.2470248, z: 1.1199999}
+    time: 102.01842
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.3858415, y: 2.2382069, z: 1.1199999}
+    time: 102.33751
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.42747366, y: 2.2690883, z: 1.1199999}
+    time: 102.644066
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.52760565, y: 2.3308477, z: 1.1199999}
+    time: 102.66982
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4525714, y: 2.3084915, z: 1.1199999}
+    time: 102.97634
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5898026, y: 2.3401024, z: 1.1199999}
+    time: 103.24112
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.43427435, y: 2.3007047, z: 1.1199999}
+    time: 103.269035
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.40656412, y: 2.329117, z: 1.1199999}
+    time: 103.58928
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.43967548, y: 2.3373387, z: 1.1199999}
+    time: 103.86466
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5696894, y: 2.3112638, z: 1.1199999}
+    time: 103.92088
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.41130665, y: 2.2982376, z: 1.1199999}
+    time: 104.21216
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.619812, y: 2.310375, z: 1.1199999}
+    time: 104.51884
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.43555897, y: 2.3092217, z: 1.1199999}
+    time: 104.684784
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6195892, y: 2.3456454, z: 1.1199999}
+    time: 104.82443
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.42163724, y: 2.3015223, z: 1.1199999}
+    time: 104.977234
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4450057, y: 2.3241353, z: 1.1199999}
+    time: 105.12974
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5829898, y: 2.2278006, z: 1.1199999}
+    time: 105.32418
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.40061286, y: 2.2822874, z: 1.1199999}
+    time: 105.47678
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5548666, y: 2.347175, z: 1.1199999}
+    time: 105.61575
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45265764, y: 2.2862334, z: 1.1199999}
+    time: 105.782715
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.4543169, y: 2.3224688, z: 1.1199999}
+    time: 105.93729
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5818647, y: 2.4204235, z: 1.1199999}
+    time: 106.10186
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.43514514, y: 2.2956023, z: 1.1199999}
+    time: 106.24195
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.42918396, y: 2.3951716, z: 1.1199999}
+    time: 106.42302
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5838483, y: 2.3644772, z: 1.1199999}
+    time: 106.86559
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5018454, y: 2.2838454, z: 1.1199999}
+    time: 107.0025
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61303514, y: 2.4211404, z: 1.1199999}
+    time: 107.225525
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.50351, y: 2.309943, z: 1.1199999}
+    time: 107.37993
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60578763, y: 2.3861105, z: 1.1199999}
+    time: 107.71437
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.5007688, y: 2.3341546, z: 1.1199999}
+    time: 108.00402
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5440035, y: 2.5373075, z: 1.1199999}
+    time: 108.28447
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.44114584, y: 2.3001153, z: 1.1199999}
+    time: 108.43465
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.6372489, y: 2.3766224, z: 1.1199999}
+    time: 108.65627
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.58791786, y: 2.3689113, z: 1.1199999}
+    time: 108.85011
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.43984812, y: 2.2700531, z: 1.1199999}
+    time: 108.99019
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.56738377, y: 2.386665, z: 1.1199999}
+    time: 109.1162
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5442548, y: 2.3628428, z: 1.1199999}
+    time: 109.29552
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4390369, y: 2.3024397, z: 1.1199999}
+    time: 109.43469
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.58384514, y: 2.3584287, z: 1.1199999}
+    time: 109.572586
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.45546743, y: 2.3092911, z: 1.1199999}
+    time: 109.71115
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5813619, y: 2.3648868, z: 1.1199999}
+    time: 109.850655
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: -0.5957625, y: 2.3550992, z: 1.1199999}
+    time: 110.03239
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.46904045, y: 2.3115416, z: 1.1199999}
+    time: 110.197235
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5555714, y: 2.3338206, z: 1.1199999}
+    time: 110.42109
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.44753504, y: 2.3156903, z: 1.1199999}
+    time: 110.52015
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5917214, y: 2.3443317, z: 1.1199999}
+    time: 110.69744
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.4327941, y: 2.2983537, z: 1.1199999}
+    time: 110.85011
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.60021865, y: 2.3475156, z: 1.1199999}
+    time: 110.96094
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.43393373, y: 2.306984, z: 1.1199999}
+    time: 111.10217
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: 0.40934187, y: 2.303269, z: 1.1199999}
+    time: 111.253876
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.5783804, y: 2.3447616, z: 1.1199999}
+    time: 111.46141
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.42007476, y: 2.3203628, z: 1.1199999}
+    time: 111.85134
+    isLeft: 0
+    isSpecial: 0
+  - spawnPos: {x: -0.61544, y: 2.4022877, z: 1.1199999}
+    time: 112.325516
+    isLeft: 1
+    isSpecial: 0
+  - spawnPos: {x: 0.41857225, y: 2.2690134, z: 1.1199999}
+    time: 112.614136
+    isLeft: 0
+    isSpecial: 0

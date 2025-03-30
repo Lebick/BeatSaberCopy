@@ -5,6 +5,11 @@ using UnityEngine.InputSystem;
 
 public class GuardNote : Note
 {
+    public override void initialize()
+    {
+        base.initialize();
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -12,7 +17,22 @@ public class GuardNote : Note
 
     protected override void Update()
     {
-        base.Update();
+        progress += Time.deltaTime;
+        transform.position = startPos + (endPos - startPos) * progress;
+
+        if (progress > 1.2f)
+        {
+            if (isLeft)
+            {
+                noteSpawn.leftSpecialPullingNote.Enqueue(gameObject);
+            }
+            else
+            {
+                noteSpawn.rightSpecialPullingNote.Enqueue(gameObject);
+            }
+            gameObject.SetActive(false);
+            GamePlayManager.instance.combo = 0;
+        }
     }
 
 
@@ -27,11 +47,19 @@ public class GuardNote : Note
             }
             else if (other.GetComponent<PlayerAttack>().btnReleaseTime <= 0.2f)
             {
-                //Instantiate(destroyEffect, transform.position, Quaternion.identity);
-                print("막았다!!!!!!!!!!!!!!");
-                Destroy(gameObject);
-
                 GamePlayManager.instance.combo++;
+                if (isLeft)
+                {
+                    noteSpawn.leftSpecialPullingNote.Enqueue(gameObject);
+                    noteSpawn.GetLeftEffect(transform.position);
+                }
+                else
+                {
+                    noteSpawn.rightSpecialPullingNote.Enqueue(gameObject);
+                    noteSpawn.GetRightEffect(transform.position);
+                }
+                gameObject.SetActive(false);
+
             }
         }
     }
@@ -42,11 +70,19 @@ public class GuardNote : Note
 
         if (other.GetComponent<PlayerAttack>().btnReleaseTime != 0)
         {
-            //Instantiate(destroyEffect, transform.position, Quaternion.identity);
-            print("막았다!!!!!!!!!!!!!!");
-            Destroy(gameObject);
-
             GamePlayManager.instance.combo++;
+
+            if (isLeft)
+            {
+                noteSpawn.leftSpecialPullingNote.Enqueue(gameObject);
+                noteSpawn.GetLeftEffect(transform.position);
+            }
+            else
+            {
+                noteSpawn.rightSpecialPullingNote.Enqueue(gameObject);
+                noteSpawn.GetRightEffect(transform.position);
+            }
+            gameObject.SetActive(false);
         }
     }
 }

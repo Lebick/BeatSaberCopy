@@ -4,27 +4,37 @@ using System.Collections.Generic;
 
 public class NoteSpawn : MonoBehaviour
 {
-    public GameInfo info;
+    private GameInfo info;
 
     public float songProgress;
 
     private bool isStart;
 
     public GameObject leftNotePrefab;
+    public GameObject leftSpecialNotePrefab;
     public GameObject leftEffectPrefab;
     public GameObject rightNotePrefab;
+    public GameObject rightSpecialNotePrefab;
     public GameObject rightEffectPrefab;
 
     public HashSet<GameInfo.NoteInfo> useNotes = new(); // HashSet으로 성능 개선
 
-    public Queue<GameObject> leftPullingNote = new(); // Queue로 오브젝트 관리
+    public Queue<GameObject> leftPullingNote = new();
+    public Queue<GameObject> leftSpecialPullingNote = new();
     public Queue<GameObject> rightPullingNote = new();
+    public Queue<GameObject> rightSpecialPullingNote = new();
 
     public Queue<GameObject> leftPullingEffect = new();
     public Queue<GameObject> rightPullingEffect = new();
 
+    private void Start()
+    {
+        info = GamePlayManager.instance.gameInfo;
+    }
+
     public void SetSong()
     {
+        info = GamePlayManager.instance.gameInfo;
         StartCoroutine(StartSong());
     }
 
@@ -39,12 +49,61 @@ public class NoteSpawn : MonoBehaviour
                 if (note.time <= songProgress && !useNotes.Contains(note))
                 {
                     useNotes.Add(note);
-                    if (note.isLeft)
-                        GetLeftNote(note);
+
+                    if (note.isSpecial)
+                    {
+                        if (note.isLeft)
+                            GetLeftSpecialNote(note);
+                        else
+                            GetRightSpecialNote(note);
+                    }
                     else
-                        GetRightNote(note);
+                    {
+                        if (note.isLeft)
+                            GetLeftNote(note);
+                        else
+                            GetRightNote(note);
+                    }
                 }
             }
+
+            CheckGameEnd();
+        }
+    }
+
+    private void GetLeftSpecialNote(GameInfo.NoteInfo note)
+    {
+        if (leftSpecialPullingNote.Count == 0)
+        {
+            GameObject newNote = Instantiate(leftSpecialNotePrefab, note.spawnPos, Quaternion.identity);
+            newNote.GetComponent<Note>().noteSpawn = this;
+        }
+        else
+        {
+            GameObject noteObj = leftSpecialPullingNote.Dequeue();
+            Vector3 pos = note.spawnPos;
+            pos.z = 17;
+            noteObj.transform.position = pos;
+            noteObj.SetActive(true);
+            noteObj.GetComponent<Note>().initialize();
+        }
+    }
+
+    private void GetRightSpecialNote(GameInfo.NoteInfo note)
+    {
+        if (rightSpecialPullingNote.Count == 0)
+        {
+            GameObject newNote = Instantiate(rightSpecialNotePrefab, note.spawnPos, Quaternion.identity);
+            newNote.GetComponent<Note>().noteSpawn = this;
+        }
+        else
+        {
+            GameObject noteObj = rightSpecialPullingNote.Dequeue();
+            Vector3 pos = note.spawnPos;
+            pos.z = 17;
+            noteObj.transform.position = pos;
+            noteObj.SetActive(true);
+            noteObj.GetComponent<Note>().initialize();
         }
     }
 
@@ -139,4 +198,23 @@ public class NoteSpawn : MonoBehaviour
 
         AudioManager.instance.PlayMusic(info.song, progress - 1f);
     }
+
+    private bool isEnd;
+
+    private void CheckGameEnd()
+    {
+        if(info.noteInfos.Count == useNotes.Count && !isEnd)
+        {
+            isEnd = true;
+            StartCoroutine(WaitEnd());
+        }
+    }
+
+
+    private IEnumerator WaitEnd()
+    {
+        yield return new WaitForSeconds(2f);
+        GamePlayManager.instance.GameEnd();
+    }
+
 }

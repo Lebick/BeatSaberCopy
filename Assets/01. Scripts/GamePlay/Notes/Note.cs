@@ -13,7 +13,7 @@ public class Note : MonoBehaviour
 
     public NoteSpawn noteSpawn;
 
-    public void initialize()
+    public virtual void initialize()
     {
         progress = 0f;
         startPos = transform.position;
@@ -60,6 +60,18 @@ public class Note : MonoBehaviour
         if (other.TryGetComponent(out PlayerAttack player) && player.isLeft == isLeft && player.distance >= 0.1f && Mathf.Abs(1 - progress) <= 0.2f)
         {
             GamePlayManager.instance.combo++;
+
+            if (GamePlayManager.instance.combo >= 0)
+                GamePlayManager.instance.score += 500;
+
+            if (GamePlayManager.instance.combo >= 20)
+                GamePlayManager.instance.score += 500;
+
+            if (GamePlayManager.instance.combo >= 40)
+                GamePlayManager.instance.score += 500;
+
+            if (GamePlayManager.instance.combo >= 80)
+                GamePlayManager.instance.score += 500;
 
             // Enqueue로 오브젝트 풀에 추가
             if (isLeft)
